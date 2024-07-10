@@ -8,7 +8,7 @@ use Illuminate\Support\Arr;
 
 class Client extends Model
 {
-    protected $table = 'clientes_muestreo';
+    protected $table = 'clientes';
     public $timestamps = false;
     protected $guarded = [];
     use HasFactory;
